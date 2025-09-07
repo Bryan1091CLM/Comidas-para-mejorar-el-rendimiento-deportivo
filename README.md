@@ -13,6 +13,5 @@ Descripcion: Las comidas para el rendimiento deportivo son importantes y ayudan 
 </ui>
 
 Esto es lo que busco hacer con mi aplicacion
-
-git clone--recursive https://github.com/Bryan1091CLM/Comidas-para-mejorar-el-rendimiento-deportivo/tree/main
+https://github.com/Bryan1091CLM/Comidas-para-mejorar-el-rendimiento-deportivo/tree/main
 
