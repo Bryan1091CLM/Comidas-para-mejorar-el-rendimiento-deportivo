@@ -4,7 +4,7 @@ Descripcion: Las comidas para el rendimiento deportivo son importantes y ayudan 
 
 </p>
 
-<li>Este tema lo elegi porque une salud, deporte y alimentaciuon. Ademas, es util para cualquier persona: jovenes, adultos o mayores de edad que quieran mejorar su dieta y potenciar su rendimiento fisico al hacer ejercicio o comenzar un deporte.</li>
+<li>Este tema lo elegi porque une salud, deporte y alimentacion. Ademas, es util para cualquier persona: jovenes, adultos o mayores de edad que quieran mejorar su dieta y potenciar su rendimiento fisico al hacer ejercicio o comenzar un deporte.</li>
 <ui>
 
  <li>Mi objetivo principal: Es poder informar a las personas y educar sobre los habitos saludables, promover el ejercicio y ofrecer soluciones de cambio de salud y cambios que quieran hacer fisicos. </li>
