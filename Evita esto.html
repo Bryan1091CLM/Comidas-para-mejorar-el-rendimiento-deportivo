@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Evita Esto</title>
+</head>
+
+<!-- SOLO CAMBIO: este style para pegar footer abajo -->
+<body style="min-height:100vh; display:flex; flex-direction:column;">
+
+<header style="background:#00C853; padding:20px; text-align:center;">
+    <h1 style="color:white; margin:0; font-size:32px;">Evita Estos Alimentos</h1>
+</header>
+
+<section style="background:#000; padding:15px; text-align:center;">
+    <a href="Temas para el rendimiento .html" style="color:white; margin:0 25px; font-size:18px; text-decoration:none;">Inicio</a>
+    <a href="informacion.html" style="color:white; margin:0 25px; font-size:18px; text-decoration:none;">Información</a>
+    <a href="Recomendaciones.html" style="color:white; margin:0 25px; font-size:18px; text-decoration:none;">Recomendaciones</a>
+    <a href="Evita esto.html" style="color:#00C853; margin:0 25px; font-size:18px; font-weight:bold; text-decoration:none;">✘ Evita esto</a>
+    <a href="Contacto.html" style="color:white; margin:0 25px; font-size:18px; text-decoration:none;">Contacto</a>
+</section>
+
+<section style="background:white; width:80%; margin:40px auto; padding:30px; border-radius:20px;">
+
+    <h2 style="text-align:center; color:#00C853; font-size:28px;">
+        Información Importante Sobre la Mala Alimentación
+    </h2>
+
+    <p style="text-align:center; font-size:18px; margin-bottom:30px;">
+        Presiona el botón para leer cómo los malos hábitos alimenticios afectan tu rendimiento.
+    </p>
+
+    <!-- BOTÓN -->
+    <button name="mostrarTexto"
+        style="background:#00C853; color:white; padding:15px 25px;
+        font-size:18px; border:none; border-radius:10px; cursor:pointer;">
+        Mostrar Información
+    </button>
+
+    <!-- TEXTO NUEVO -->
+    <section name="textoMalo" style="display:none; margin-top:25px; font-size:18px; line-height:1.6;">
+        Cuando uno come mal, el cuerpo lo siente a largo plazo aunque uno piense que no. Consumir dulces,
+        alcohol, chocolates y alimentos llenos de grasa y azúcar afecta tu energía, tu salud y hasta tu
+        estado de ánimo. Son cosas que se acumulan con el tiempo y terminan pasándote factura. En cambio,
+        cuando uno come saludable, no solo mejora la salud física, sino también la mental: te sientes más
+        ligero, más despierto y con más motivación para hacer tus cosas del día.
+
+        <br><br>
+
+        Además, cuando comes mal por ejemplo pizza, hamburguesas, frituras y todo ese tipo de comida rápida y quieres
+        practicar algún deporte, tu cuerpo no responde igual. Te limita, te hace sentir más lento y te afecta
+        directamente en el rendimiento. Uno quiere mejorar, pero la alimentación mala te retiene
+        completamente sin que te des cuenta. “Estar bien no es solo verse mejor”, es rendir mejor en lo que
+        haces, ya sea en el gimnasio, en la universidad o en tu diario vivir.
+
+        <br><br>
+
+        Si tú quieres ser una persona fuerte, sana y con buena energía, lo mejor es mantener una vida saludable
+        acompañada de un poco de ejercicio físico. No tienes que ser perfecto ni dejar todo para siempre, porque
+        también es normal darse un gustito de vez en cuando. Pero sí es importante controlar esas comidas lo mejor
+        que puedas, para que tu cuerpo funcione mejor y tengas una vida más larga, más estable y más próspera.
+
+        <br><br>
+
+        En resumen, no se trata de prohibirte nada, sino de aprender a balancear. Si cuidas tu alimentación
+        y te mantienes activo, tu cuerpo te lo va a agradecer siempre.
+    </section>
+
+</section>
+
+<!-- SOLO CAMBIO: margin-top:auto para pegarlo ABAJO -->
+<footer style="margin-top:auto; background:#00C853; padding:20px; text-align:center;">
+    <p style="color:white; font-size:18px; margin:0;">
+        Comidas para el rendimiento físico
+    </p>
+</footer>
+
+<!-- JAVASCRIPT SIN ONCLICK -->
+<script>
+    let boton = document.getElementsByName("mostrarTexto")[0];
+    let texto = document.getElementsByName("textoMalo")[0];
+
+    boton.addEventListener("click", function() {
+        if (texto.style.display === "none") {
+            texto.style.display = "block";
+        } else {
+            texto.style.display = "none";
+        }
+    });
+</script>
+
+</body>
+</html>

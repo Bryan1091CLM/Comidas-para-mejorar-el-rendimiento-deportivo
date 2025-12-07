@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+/* HEADER */
+header {
+    background-color: #00cc66;
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+}
+
+header img {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+/* SECTION 1 = MENÚ */
+section:nth-of-type(1) {
+    background-color: black;
+    text-align: center;
+    padding: 12px;
+}
+
+section:nth-of-type(1) a {
+    color: #00cc66;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+section:nth-of-type(1) a:hover {
+    color: white;
+}
+
+/* TODAS LAS SECCIONES NORMALES */
+section {
+    width: 70%;
+    margin: 30px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+/* TEXTO DE LA SECCIÓN 2 */
+section:nth-of-type(2) h2 {
+    color: #00cc66;
+}
+
+section:nth-of-type(2) p {
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+/* IMAGEN */
+section:nth-of-type(3) img {
+    border-radius: 10px;
+}
+
+/* FORMULARIO */
+section:nth-of-type(4) {
+    background-color: #f2f2f2;
+    text-align: left;
+}
+
+section:nth-of-type(4) h2 {
+    color: #00cc66;
+    text-align: center;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 6px;
+    border: 1px solid gray;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #00cc66;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #00994d;
+}
+
+/* FOOTER */
+footer {
+    background-color: #00cc66;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
