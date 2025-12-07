@@ -2,23 +2,31 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Evita Esto</title>
 </head>
 
-<!-- SOLO CAMBIO: este style para pegar footer abajo -->
-<body style="min-height:100vh; display:flex; flex-direction:column;">
+<body style="min-height:100vh; display:flex; flex-direction:column; margin:0; font-family:Arial;">
 
 <header style="background:#00C853; padding:20px; text-align:center;">
     <h1 style="color:white; margin:0; font-size:32px;">Evita Estos Alimentos</h1>
 </header>
 
+<!-- MENÚ CORREGIDO -->
 <section style="background:#000; padding:15px; text-align:center;">
-    <a href="Temas para el rendimiento .html" style="color:white; margin:0 25px; font-size:18px; text-decoration:none;">Inicio</a>
-    <a href="informacion.html" style="color:white; margin:0 25px; font-size:18px; text-decoration:none;">Información</a>
+
+    <!-- Inicio correcto -->
+    <a href="index.html" style="color:white; margin:0 25px; font-size:18px; text-decoration:none;">Inicio</a>
+
+    <!-- Información dentro de index.html -->
+    <a href="index.html" style="color:white; margin:0 25px; font-size:18px; text-decoration:none;">Información</a>
+
     <a href="Recomendaciones.html" style="color:white; margin:0 25px; font-size:18px; text-decoration:none;">Recomendaciones</a>
-    <a href="Evita esto.html" style="color:#00C853; margin:0 25px; font-size:18px; font-weight:bold; text-decoration:none;">✘ Evita esto</a>
+
+    <!-- Archivo renombrado correctamente -->
+    <a href="Evita-esto.html" style="color:#00C853; margin:0 25px; font-size:18px; font-weight:bold; text-decoration:none;">✘ Evita esto</a>
+
     <a href="Contacto.html" style="color:white; margin:0 25px; font-size:18px; text-decoration:none;">Contacto</a>
 </section>
 
@@ -41,6 +49,7 @@
 
     <!-- TEXTO NUEVO -->
     <section name="textoMalo" style="display:none; margin-top:25px; font-size:18px; line-height:1.6;">
+
         Cuando uno come mal, el cuerpo lo siente a largo plazo aunque uno piense que no. Consumir dulces,
         alcohol, chocolates y alimentos llenos de grasa y azúcar afecta tu energía, tu salud y hasta tu
         estado de ánimo. Son cosas que se acumulan con el tiempo y terminan pasándote factura. En cambio,
@@ -70,24 +79,20 @@
 
 </section>
 
-<!-- SOLO CAMBIO: margin-top:auto para pegarlo ABAJO -->
+<!-- FOOTER ABAJO SIEMPRE -->
 <footer style="margin-top:auto; background:#00C853; padding:20px; text-align:center;">
     <p style="color:white; font-size:18px; margin:0;">
         Comidas para el rendimiento físico
     </p>
 </footer>
 
-<!-- JAVASCRIPT SIN ONCLICK -->
+<!-- JAVASCRIPT -->
 <script>
     let boton = document.getElementsByName("mostrarTexto")[0];
     let texto = document.getElementsByName("textoMalo")[0];
 
     boton.addEventListener("click", function() {
-        if (texto.style.display === "none") {
-            texto.style.display = "block";
-        } else {
-            texto.style.display = "none";
-        }
+        texto.style.display = texto.style.display === "none" ? "block" : "none";
     });
 </script>
 
