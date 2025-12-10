@@ -6,7 +6,7 @@ body {
 
 /* HEADER */
 header {
-    background-color: #B6E8A8;
+    background-color: #8ED674;
     color: white;
     font-size: 26px;
     font-weight: bold;
@@ -27,7 +27,7 @@ section:nth-of-type(1) {
 }
 
 section:nth-of-type(1) a {
-    color: #B6E8A8;
+    color: #8ED674;
     text-decoration: none;
     margin: 0 20px;
     font-size: 18px;
@@ -51,7 +51,7 @@ section {
 
 /* TEXTO DE LA SECCIÓN 2 */
 section:nth-of-type(2) h2 {
-    color: #B6E8A8;
+    color: #8ED674;
 }
 
 section:nth-of-type(2) p {
@@ -71,7 +71,7 @@ section:nth-of-type(4) {
 }
 
 section:nth-of-type(4) h2 {
-    color: #B6E8A8;
+    color: #8ED674;
     text-align: center;
 }
 
@@ -87,7 +87,7 @@ input, textarea {
 button {
     width: 100%;
     padding: 12px;
-    background-color: #B6E8A8;
+    background-color: #8ED674;
     border: none;
     border-radius: 6px;
     color: white;
@@ -96,12 +96,12 @@ button {
 }
 
 button:hover {
-    background-color: #9BD594;
+    background-color: #7AC960;
 }
 
 /* FOOTER */
 footer {
-    background-color: #B6E8A8;
+    background-color: #8ED674;
     color: white;
     text-align: center;
     padding: 15px;
